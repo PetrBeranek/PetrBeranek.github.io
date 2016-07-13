@@ -1,0 +1,26 @@
+
+Modified files:
+src/vicitis/GUI/MDI_app_state.java
+src/vicitis/GUI/MDI_Editor_v1.java
+src/vicitis/GUI/MDI_pc_3D.java
+src/vicitis/GUI/MDI_pc_gis.java
+
+src/vicitis/GUI/threeDee/CSG3D.java
+
+src/vicitis/inner/PinholeCamera.java
+src/vicitis/inner/Plane3D.java
+src/vicitis/inner/Point2D.java
+src/vicitis/inner/Point3D.java
+
+src/vicitis/inner/sceneConstruction/CSG_Plane.java
+
+src/vicitis/inner/segmentation/SegmentationWrapper.java
+
+src/vicitis/inner/utils/Plane3Dutils.java
+
+src/vicitis/io/loaders/BundlerLoader.java
+
+New files:
+src/vicitis/GUI/NotFloatException.java
+src/vicitis/inner/PointBorder.java
+src/vicitis/inner/DoublePointCollection.java

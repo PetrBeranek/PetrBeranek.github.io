@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Bachelor thesis</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h1>Bachelor thesis</h1>
+
+<p>
+Finished in May 2015</br>
+My bachelor thesis was written in Czech language.
+</p>
+
+<p>
+<b>Abstract:</b></br>
+The goal of this thesis is to analyze 3D reconstruction application ArchiRec3D and to design and implement several tools, which give user new possibilities of plane editing. 
+One of the tools allows user to create/modify borders, which are used to trim the planes. Other tool allows user to apply texture to these trimmed planes. 
+The next important tool allows user to create 3D objects form trimmed plane. Thesis contains analysis of the most important parts of the application. 
+There are also chapters containing problem analysis, design, implementation and testing of these tools. 
+The result is the modified application which allows user to create more detailed textured objects, which was not possible before.</br>
+</br>
+<b>About ArchiRec3D</b></br>
+ArchiRec3D(AR) is an experimental program for 3D reconstruction created by David Sedláček implemented in Java using Java3D API. AR uses calibrated scene created by programs such as Bundler [1].
+Calibrated scene is created from photographies of object and consists of point cloud, cameras, photographies and informations about connections between photographies and points of point cloud (especially position of point in photography).
+AR enables visualisation of the scene and gives user several tools to work with scene. User is able to select parts of photographies (walls, doors, roof) by drawing and plane is created in scene. The position and direction of plane is determined by points in selected part of photography.
+RANSAC algorithm is used to create best approximation. AR is designed in such way, that user have to do minimum work. User draws simple scribbles, program does the most of the work. User is able to refine the plane by adding scribbles to different photographies.
+AR allows user to create any amount of planes and user can define which plane should clip other planes. Unfortunately user was unable to define shape of planes. Basic plane was always rectangular with size defined by properties of points used to create it.
+</p>
+<p>
+<b>Note:</b></br>
+The most important part of my work was to orientate in ArchiRec3D. Program had no documentation and only few parts of code were commented (sometimes even name of methods didn't say much about what it does).</br>
+</br>
+<b>My task:</b></br>
+Create tool that allows user to create border of any plane.</br>
+Create tool that will enable user to refine border of any plane in any photography in the scene.</br>
+Create tool to apply texture to the plane. (Texture is created from photography chosen by user.)</br>
+Create tool for extruding plane to create 3D object.</br>
+Create import module for scenes created by VisualSFM [2].</br> 
+</p>
+
+<p>
+[1] Bundler  	<a href="http://www.cs.cornell.edu/~snavely/bundler/">link</a></br>
+[2] VisualSFM 	<a href="http://ccwu.me/vsfm/">link</a></br>
+[3] my thesis 	<a href="https://dspace.cvut.cz/handle/10467/62033?show=full">link</a></br>
+</p>
+
+Thesis (in Czech) <a href="thesis/Beranek-Petr-Editor hranic ploch pro program ArchiRec3D.pdf">pdf</a></br>
+opinion - advisor (posudek vedoucího) (in Czech) <a href="thesis/opinion - advisor (posudek vedoucího)/F3-BP-2015-posudek-Sedlacek_David.pdf">pdf</a></br>
+opinion - referee (posudek oponenta) (in Czech) <a href="thesis/opinion - referee (posudek oponenta)/F3-BP-2015-posudek-Bubnik_Vojtech.pdf">pdf</a></br>
+
+<h3> Old GUI and functionality: </h3>
+GUI</br>
+<a href="thesis/img/Il_1.jpg"><img src="thesis/img/Thumb_Il_1.jpg"></a></br>
+</br>
+GUI - Photography Editor</br>
+<a href="thesis/img/Il_2.jpg"><img src="thesis/img/Thumb_Il_2.jpg"></a></br>
+</br>
+GUI - 3D scene</br>
+<a href="thesis/img/Il_3.jpg"><img src="thesis/img/Thumb_Il_3.jpg"></a></br>
+</br>
+GUI - basic plane creation</br>
+<a href="thesis/img/Il_5.jpg"><img src="thesis/img/Thumb_Il_5.jpg"></a></br>
+</br>
+GUI - basic plane creation</br>
+<a href="thesis/img/Il_6.jpg"><img src="thesis/img/Thumb_Il_6.jpg"></a></br>
+</br>
+GUI - basic plane creation(planes cutting each other)</br>
+<a href="thesis/img/Il_7.jpg"><img src="thesis/img/Thumb_Il_7.jpg"></a></br>
+
+<h3> Modified GUI and new functionality: </h3>
+GUI - Modified Photography Editor</br>
+<a href="thesis/img/Il_4.jpg"><img src="thesis/img/Thumb_Il_4.jpg"></a></br>
+</br>
+GUI - planes with borders</br>
+<a href="thesis/img/Il_8.jpg"><img src="thesis/img/Thumb_Il_8.jpg"></a></br>
+</br>
+GUI - planes with borders and textures</br>
+<a href="thesis/img/Il_9.jpg"><img src="thesis/img/Thumb_Il_9.jpg"></a></br>
+</br>
+GUI - detailed border</br>
+<a href="thesis/img/Il_10.jpg"><img src="thesis/img/Thumb_Il_10.jpg"></a></br>
+</br>
+GUI - extruding</br>
+<a href="thesis/img/Il_11.jpg"><img src="thesis/img/Thumb_Il_11.jpg"></a></br>
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,8 @@
+
+Test data:
+Because of the size of test scenes (Doudleby scene has 2.65 Gb) I uploaded them to uloz.to.
+
+Archive contains test scene doubleby_Bundler (created by program Bundler) and scene jordansky_sarkofag_VisualSFM (created in VisualSFM).
+ 
+link: http://uloz.to/xHVzeotR/testscenes-zip
+password: testscene
