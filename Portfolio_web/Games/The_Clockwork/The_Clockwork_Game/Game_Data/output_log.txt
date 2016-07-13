@@ -1,0 +1,847 @@
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 460 (ID=0xe22)
+    Vendor:   NVIDIA
+    VRAM:     979 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.035 seconds
+desktop: 1920x1080 60Hz; virtual: 3520x1200 at -1600,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\System.Core.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/Nature/Tree Creator Leaves Optimized' - Pass '' shader state not supported
+The tree Tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 80)
+
+The tree LeafyTree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 80)
+
+The tree LeafyTree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 80)
+
+The tree Tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 80)
+
+The class named 'GUIMenuItem' is abstract. The script class can't be abstract!
+ 
+(Filename:  Line: 1633)
+
+UnloadTime: 1.634067 ms
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── PathPatrolTree
+    └── Sequence
+        ├── SetParameter
+        └── WaitBehavior
+    └── Sequence
+        ├── ConditionalBehavior
+        │   └── SetNextWaypoint
+        └── MoveBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── ActionRunToPlayerTree
+    ├── Sequence
+    │   ├── ParamEqualCheck
+    │   ├── RunToPlayer
+    │   └── EnemyNpcTree
+    │       └── ConditionalBehavior
+    │           └── ConditionalBehavior
+    │               └── Sequence
+    │                   ├── MoveBehavior
+    │                   └── RandomWalk
+    │                       ├── ChooseRandomDestination
+    │                       ├── MoveBehavior
+    │                       ├── SetParameter
+    │                       └── WaitBehavior
+    │               └── Sequence
+    │                   ├── RunToEnemyRange
+    │                   └── AttackBehavior
+    │           └── ConditionalBehavior
+    │               └── Sequence
+    │                   ├── RunToEnemyRange
+    │                   └── AttackBehavior
+    │               └── Sequence
+    │                   ├── MoveBehavior
+    │                   └── RandomWalk
+    │                       ├── ChooseRandomDestination
+    │                       ├── MoveBehavior
+    │                       ├── SetParameter
+    │                       └── WaitBehavior
+    └── EnemyNpcTree
+        └── ConditionalBehavior
+            └── ConditionalBehavior
+                └── Sequence
+                    ├── MoveBehavior
+                    └── RandomWalk
+                        ├── ChooseRandomDestination
+                        ├── MoveBehavior
+                        ├── SetParameter
+                        └── WaitBehavior
+                └── Sequence
+                    ├── RunToEnemyRange
+                    └── AttackBehavior
+            └── ConditionalBehavior
+                └── Sequence
+                    ├── RunToEnemyRange
+                    └── AttackBehavior
+                └── Sequence
+                    ├── MoveBehavior
+                    └── RandomWalk
+                        ├── ChooseRandomDestination
+                        ├── MoveBehavior
+                        ├── SetParameter
+                        └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── ActionRunToPlayerTree
+    ├── Sequence
+    │   ├── ParamEqualCheck
+    │   ├── RunToPlayer
+    │   └── EnemyNpcTree
+    │       └── ConditionalBehavior
+    │           └── ConditionalBehavior
+    │               └── Sequence
+    │                   ├── MoveBehavior
+    │                   └── RandomWalk
+    │                       ├── ChooseRandomDestination
+    │                       ├── MoveBehavior
+    │                       ├── SetParameter
+    │                       └── WaitBehavior
+    │               └── Sequence
+    │                   ├── RunToEnemyRange
+    │                   └── AttackBehavior
+    │           └── ConditionalBehavior
+    │               └── Sequence
+    │                   ├── RunToEnemyRange
+    │                   └── AttackBehavior
+    │               └── Sequence
+    │                   ├── MoveBehavior
+    │                   └── RandomWalk
+    │                       ├── ChooseRandomDestination
+    │                       ├── MoveBehavior
+    │                       ├── SetParameter
+    │                       └── WaitBehavior
+    └── EnemyNpcTree
+        └── ConditionalBehavior
+            └── ConditionalBehavior
+                └── Sequence
+                    ├── MoveBehavior
+                    └── RandomWalk
+                        ├── ChooseRandomDestination
+                        ├── MoveBehavior
+                        ├── SetParameter
+                        └── WaitBehavior
+                └── Sequence
+                    ├── RunToEnemyRange
+                    └── AttackBehavior
+            └── ConditionalBehavior
+                └── Sequence
+                    ├── RunToEnemyRange
+                    └── AttackBehavior
+                └── Sequence
+                    ├── MoveBehavior
+                    └── RandomWalk
+                        ├── ChooseRandomDestination
+                        ├── MoveBehavior
+                        ├── SetParameter
+                        └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── ActionRunToPlayerTree
+    ├── Sequence
+    │   ├── ParamEqualCheck
+    │   ├── RunToPlayer
+    │   └── EnemyNpcTree
+    │       └── ConditionalBehavior
+    │           └── ConditionalBehavior
+    │               └── Sequence
+    │                   ├── MoveBehavior
+    │                   └── RandomWalk
+    │                       ├── ChooseRandomDestination
+    │                       ├── MoveBehavior
+    │                       ├── SetParameter
+    │                       └── WaitBehavior
+    │               └── Sequence
+    │                   ├── RunToEnemyRange
+    │                   └── AttackBehavior
+    │           └── ConditionalBehavior
+    │               └── Sequence
+    │                   ├── RunToEnemyRange
+    │                   └── AttackBehavior
+    │               └── Sequence
+    │                   ├── MoveBehavior
+    │                   └── RandomWalk
+    │                       ├── ChooseRandomDestination
+    │                       ├── MoveBehavior
+    │                       ├── SetParameter
+    │                       └── WaitBehavior
+    └── EnemyNpcTree
+        └── ConditionalBehavior
+            └── ConditionalBehavior
+                └── Sequence
+                    ├── MoveBehavior
+                    └── RandomWalk
+                        ├── ChooseRandomDestination
+                        ├── MoveBehavior
+                        ├── SetParameter
+                        └── WaitBehavior
+                └── Sequence
+                    ├── RunToEnemyRange
+                    └── AttackBehavior
+            └── ConditionalBehavior
+                └── Sequence
+                    ├── RunToEnemyRange
+                    └── AttackBehavior
+                └── Sequence
+                    ├── MoveBehavior
+                    └── RandomWalk
+                        ├── ChooseRandomDestination
+                        ├── MoveBehavior
+                        ├── SetParameter
+                        └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── ActionRunToPlayerTree
+    ├── Sequence
+    │   ├── ParamEqualCheck
+    │   ├── RunToPlayer
+    │   └── EnemyNpcTree
+    │       └── ConditionalBehavior
+    │           └── ConditionalBehavior
+    │               └── Sequence
+    │                   ├── MoveBehavior
+    │                   └── RandomWalk
+    │                       ├── ChooseRandomDestination
+    │                       ├── MoveBehavior
+    │                       ├── SetParameter
+    │                       └── WaitBehavior
+    │               └── Sequence
+    │                   ├── RunToEnemyRange
+    │                   └── AttackBehavior
+    │           └── ConditionalBehavior
+    │               └── Sequence
+    │                   ├── RunToEnemyRange
+    │                   └── AttackBehavior
+    │               └── Sequence
+    │                   ├── MoveBehavior
+    │                   └── RandomWalk
+    │                       ├── ChooseRandomDestination
+    │                       ├── MoveBehavior
+    │                       ├── SetParameter
+    │                       └── WaitBehavior
+    └── EnemyNpcTree
+        └── ConditionalBehavior
+            └── ConditionalBehavior
+                └── Sequence
+                    ├── MoveBehavior
+                    └── RandomWalk
+                        ├── ChooseRandomDestination
+                        ├── MoveBehavior
+                        ├── SetParameter
+                        └── WaitBehavior
+                └── Sequence
+                    ├── RunToEnemyRange
+                    └── AttackBehavior
+            └── ConditionalBehavior
+                └── Sequence
+                    ├── RunToEnemyRange
+                    └── AttackBehavior
+                └── Sequence
+                    ├── MoveBehavior
+                    └── RandomWalk
+                        ├── ChooseRandomDestination
+                        ├── MoveBehavior
+                        ├── SetParameter
+                        └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+└── EnemyNpcTree
+    └── ConditionalBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+        └── ConditionalBehavior
+            └── Sequence
+                ├── RunToEnemyRange
+                └── AttackBehavior
+            └── Sequence
+                ├── MoveBehavior
+                └── RandomWalk
+                    ├── ChooseRandomDestination
+                    ├── MoveBehavior
+                    ├── SetParameter
+                    └── WaitBehavior
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 150 unused Assets to reduce memory usage. Loaded Objects now: 22765.
+Total: 4.345414 ms (FindLiveObjects: 0.872654 ms CreateObjectMapping: 0.103336 ms MarkObjects: 1.385825 ms  DeleteObjects: 1.615625 ms)
+
+WARNING: Shader Unsupported: 'Outlined/Silhouetted Diffuse' - Pass 'OUTLINE' shader state not supported
+Quest 4 added to quest log.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Event fired: OnQuestAccepted {Player (Player), Quest_4}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Quest 14 added to quest log.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Event fired: OnQuestAccepted {Player (Player), Quest_14}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Platform assembly: C:\Users\Petovo\Desktop\Portfolio_web\Games\The_Clockwork\The_Clockwork_Game\Game_Data\Managed\System.dll (this message is harmless)
+Event fired: OnKill {Player (Player), Player (Player)}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
