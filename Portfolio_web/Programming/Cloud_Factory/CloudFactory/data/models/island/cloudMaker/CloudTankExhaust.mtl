@@ -1,0 +1,597 @@
+newmtl Airship04:MatPolishedWood2SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Airship04:blinn1SG
+illum 4
+Kd 0.25 0.25 0.25
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.26 0.34 0.50
+newmtl Airship04:lambert2SG
+illum 4
+Kd 0.22 0.11 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.05 0.05 0.05
+Ns 4.19
+newmtl Airship04:lambert3SG
+illum 4
+Kd 0.92 0.86 0.83
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Airship04:lambert4SG
+illum 4
+Kd 0.74 0.64 0.42
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Airship04:phongE1SG
+illum 4
+Kd 0.91 0.81 0.60
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Airship04:phongE2SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Airship04:phongE3SG
+illum 4
+Kd 0.25 0.19 0.37
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.19 0.18 0.34
+newmtl Engineer48:Leather2SG
+illum 4
+Kd 0.18 0.06 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.08 0.08 0.08
+Ns 3.35
+newmtl Engineer48:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.09 0.09 0.09
+newmtl Engineer48:blinn3SG
+illum 4
+Kd 0.73 0.58 0.16
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Engineer48:blinn4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture-MetalRust01.png
+Ni 1.00
+Ks 0.30 0.11 0.06
+newmtl Engineer48:blinn5SG
+illum 4
+Kd 0.37 0.35 0.07
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.85 0.73 0.11
+newmtl Engineer48:lambert3SG
+illum 4
+Kd 0.07 0.01 0.01
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Engineer48:lambert4SG
+illum 4
+Kd 0.31 0.13 0.07
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Engineer48:lambert5SG
+illum 4
+Kd 0.39 0.22 0.10
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Engineer48:lambert6SG
+illum 4
+Kd 0.69 0.48 0.43
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Engineer48:lambert7SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Engineer48:lambert8SG
+illum 4
+Kd 0.32 0.37 0.48
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Engineer48:lambert9SG
+illum 4
+Kd 0.29 0.16 0.07
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Engineer48:phong1SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Engineer48:phong2SG
+illum 4
+Kd 0.13 0.39 0.17
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.07 0.07 0.07
+Ns 18.00
+newmtl Engineer48:phong3SG
+illum 4
+Kd 0.92 0.91 0.78
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.73 0.73 0.73
+Ns 18.00
+newmtl Engineer48:phong4SG
+illum 4
+Kd 0.18 0.06 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.08 0.08 0.08
+Ns 3.35
+newmtl Engineer48:phong5SG
+illum 4
+Kd 0.11 0.05 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.01 0.00 0.00
+Ns 0.00
+newmtl Engineer48:phong6SG
+illum 4
+Kd 0.15 0.15 0.15
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.36 0.36 0.36
+Ns 2.51
+newmtl Engineer48:phongE1SG
+illum 4
+Kd 0.53 0.33 0.11
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.22 0.22 0.22
+newmtl Engineer48:phongE2SG
+illum 4
+Kd 0.00 0.73 0.00
+Ka 0.00 0.00 0.00
+Tf 0.85 0.35 0.40
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl FishingPole03:blinn1SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.31 0.35 0.38
+newmtl FishingPole03:blinn2SG
+illum 4
+Kd 0.33 0.29 0.12
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.84 0.69 0.17
+newmtl FishingPole03:lambert2SG
+illum 4
+Kd 0.61 0.35 0.19
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl FishingPole03:lambert3SG
+illum 4
+Kd 0.31 0.15 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl FishingPole03:lambert4SG
+illum 4
+Kd 0.19 0.19 0.19
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl MatBrass2SG
+illum 4
+Kd 0.42 0.26 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.81 0.56 0.12
+newmtl MatIslandGrass2SG
+illum 4
+Kd 0.06 0.30 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl MatRoofWood2SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 1
+Ni 1.00
+Ks 0.41 0.17 0.09
+newmtl MatSteelDarkOpaque1SG
+illum 4
+Kd 0.22 0.21 0.21
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.66 0.75 0.78
+newmtl MatSteelLightGray2SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.85 0.85 0.85
+newmtl MatSteelTrueBlack1SG
+illum 4
+Kd 0.11 0.11 0.11
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.37 0.38 0.46
+newmtl MatWoodDarker2SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 0.05
+Ni 1.00
+Ks 0.27 0.27 0.27
+newmtl MatWoodDarker3SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 0.1
+Ni 1.00
+Ks 0.23 0.23 0.23
+newmtl MatWoodDarker4SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 0.3
+Ni 1.00
+Ks 0.23 0.23 0.23
+newmtl MatWoodDarker5SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 0.2
+Ni 1.00
+Ks 0.23 0.23 0.23
+newmtl Sheep_Exported03:blinn1SG
+illum 4
+Kd 0.68 0.68 0.68
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheep_Exported03:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.36 0.36 0.36
+newmtl Sheep_Exported03:lambert5SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheep_Exported03:lambert6SG
+illum 4
+Kd 0.13 0.13 0.13
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheep_Exported04:blinn1SG
+illum 4
+Kd 0.68 0.68 0.68
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheep_Exported04:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.36 0.36 0.36
+newmtl Sheep_Exported04:lambert5SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheep_Exported04:lambert6SG
+illum 4
+Kd 0.13 0.13 0.13
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheep_Exported05:blinn1SG
+illum 4
+Kd 0.68 0.68 0.68
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheep_Exported05:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.36 0.36 0.36
+newmtl Sheep_Exported05:lambert5SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheep_Exported05:lambert6SG
+illum 4
+Kd 0.13 0.13 0.13
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheep_Exported06:blinn1SG
+illum 4
+Kd 0.68 0.68 0.68
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheep_Exported06:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.36 0.36 0.36
+newmtl Sheep_Exported06:lambert5SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheep_Exported06:lambert6SG
+illum 4
+Kd 0.13 0.13 0.13
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheepicore_Exported06:blinn1SG
+illum 4
+Kd 0.68 0.68 0.68
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheepicore_Exported06:blinn2SG
+illum 4
+Kd 0.57 0.41 0.17
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.73 0.65 0.13
+newmtl Sheepicore_Exported06:blinn3SG
+illum 4
+Kd 0.31 0.05 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.51 0.04 0.04
+newmtl Sheepicore_Exported06:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.36 0.36 0.36
+newmtl Sheepicore_Exported06:lambert5SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Sheepicore_Exported06:lambert6SG
+illum 4
+Kd 0.13 0.13 0.13
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Tree15:lambert2SG
+illum 4
+Kd 0.48 0.23 0.07
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.09 0.04 0.01
+newmtl Tree15:lambert3SG
+illum 4
+Kd 0.04 0.33 0.03
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.03 0.39 0.03
+Ns 20.10
+newmtl blinn1SG
+illum 4
+Kd 0.20 0.21 0.24
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 1
+Ni 1.00
+Ks 0.42 0.42 0.42
+newmtl blinn2SG
+illum 4
+Kd 0.22 0.22 0.22
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.82 0.82 0.82
+newmtl blinn3SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 0.02
+Ni 1.00
+Ks 0.85 0.85 0.85
+newmtl blinn5SG
+illum 4
+Kd 0.86 0.86 0.86
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn6SG
+illum 4
+Kd 0.22 0.21 0.21
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.66 0.75 0.78
+newmtl blinn7SG
+illum 4
+Kd 0.15 0.15 0.15
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn8SG
+illum 4
+Kd 0.42 0.35 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 0.03
+Ni 1.00
+Ks 0.81 0.69 0.12
+newmtl initialShadingGroup
+illum 4
+Kd 0.82 0.82 0.82
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.90 0.70 0.45
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl phong1SG
+illum 4
+Kd 0.06 0.30 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl phong2SG
+illum 4
+Kd 0.15 0.08 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl phongE1SG
+illum 4
+Kd 0.54 0.72 0.74
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE2SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 0.05
+Ni 1.00
+Ks 0.24 0.24 0.24
+newmtl phongE3SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 0.8
+Ni 1.00
+Ks 0.15 0.15 0.15
+newmtl phongE4SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 0.3
+Ni 1.00
+Ks 0.03 0.03 0.03
+newmtl phongE5SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 0.1
+Ni 1.00
+Ks 0.23 0.23 0.23
+newmtl phongE6SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Bump-Scratches01.png -bm 0.05
+Ni 1.00
+Ks 0.41 0.17 0.09
+newmtl phongE7SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE8SG
+illum 4
+Kd 0.79 0.79 0.79
+Ka 0.28 0.28 0.28
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04

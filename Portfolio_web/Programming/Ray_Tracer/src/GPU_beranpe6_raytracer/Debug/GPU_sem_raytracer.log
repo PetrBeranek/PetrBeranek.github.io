@@ -1,0 +1,35 @@
+﻿Build started 4.12.2015 8:12:25.
+     1>Project "C:\Users\Petr\Documents\Visual Studio 2012\Projects\GPU_sem_raytracer\GPU_sem_raytracer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ipthreads\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I.\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt RayTask.cpp Source.cpp
+         RayTask.cpp
+     1>c:\users\petr\documents\visual studio 2012\projects\gpu_sem_raytracer\raybuffer.h(48): warning C4150: deletion of pointer to incomplete type 'RayTask'; no destructor called
+                 c:\users\petr\documents\visual studio 2012\projects\gpu_sem_raytracer\raybuffer.h(8) : see declaration of 'RayTask'
+     1>c:\users\petr\documents\visual studio 2012\projects\gpu_sem_raytracer\raytask.h(310): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\petr\documents\visual studio 2012\projects\gpu_sem_raytracer\raytask.h(374): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\petr\documents\visual studio 2012\projects\gpu_sem_raytracer\raytask.h(726): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         Source.cpp
+     1>c:\users\petr\documents\visual studio 2012\projects\gpu_sem_raytracer\raybuffer.h(48): warning C4150: deletion of pointer to incomplete type 'RayTask'; no destructor called
+                 c:\users\petr\documents\visual studio 2012\projects\gpu_sem_raytracer\raybuffer.h(8) : see declaration of 'RayTask'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Petr\Documents\Visual Studio 2012\Projects\GPU_sem_raytracer\Debug\GPU_sem_raytracer.exe" /INCREMENTAL /NOLOGO /LIBPATH:pthreads\lib /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" /LIBPATH:.\ glut32.lib pthreadVC2.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Petr\Documents\Visual Studio 2012\Projects\GPU_sem_raytracer\Debug\GPU_sem_raytracer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Petr\Documents\Visual Studio 2012\Projects\GPU_sem_raytracer\Debug\GPU_sem_raytracer.lib" /MACHINE:X86 Debug\RayBuffer.obj
+         Debug\Source.obj
+         Debug\RayTask.obj
+         Debug\Bitmap.obj
+         GPU_sem_raytracer.vcxproj -> C:\Users\Petr\Documents\Visual Studio 2012\Projects\GPU_sem_raytracer\Debug\GPU_sem_raytracer.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Petr\Documents\Visual Studio 2012\Projects\GPU_sem_raytracer\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Petr\Documents\Visual Studio 2012\Projects\GPU_sem_raytracer\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Petr\Documents\Visual Studio 2012\Projects\GPU_sem_raytracer\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+         Zkopírované soubory:         2
+     1>Done Building Project "C:\Users\Petr\Documents\Visual Studio 2012\Projects\GPU_sem_raytracer\GPU_sem_raytracer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.54

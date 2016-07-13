@@ -1,0 +1,66 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ray Tracer</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./default.css">
+</head>
+<body>
+
+<h1>Ray Tracer</h1>
+
+<p>
+Project finished: January 2016</br>
+</p>
+
+<p>
+<h3>Reason to create project:</h3>
+
+Project was created for course GPU [1] during my master studies.</br>
+Task was to implement ray tracer in CUDA using KD tree as spatial structure with several different traversing algorithms. Also implement ray tracer using persistent threads.</br>
+</p>
+
+<h3>About project:</h3>
+Project was implemented in C++ and CUDA and uses glut and pthread libraries.</br>
+Ray tracer uses KD tree to represent scene and tree is built on CPU. </br>
+There are 2 traversing algorithms implemented. First one always traverse from the root. Second one uses "ropes", references from each node of KD tree to its neighbours.</br>
+Primary rays are built on CPU and they are copied to GPU before ray tracing starts.</br>
+Rays are stored to buffer (stack) and new rays are stored to the end of buffer.</br>
+Ray tracer uses primary, shadow, reflected and refracted rays.</br>
+Scenes consisting of spheres and triangles can be rendered.</br>
+</br>
+Application also contains CPU ray tracer for comparison. </br>
+</br>
+Because of using persistent threads, same threads have to run for whole length of tracing. When running on Windows, registers have to be modified to render bigger scenes[2].</br>
+</br>
+<b>Report(in Czech language): </b><a href="report.pdf">link</a></br>
+
+
+
+<h3>Things yet to implement:</h3>
+<ul>
+	<li>building primary rays on GPU</li>
+	<li>adding reflected rays to buffer instead of recursive tracing</li>
+	<li>use SAH(Surface Area Heuristic) for building of KD tree</li>
+	<li>loaders for .obj and other file formats</li>
+</ul>
+
+<b>Literature used:</b></br>
+HAPALA, Michal; HAVRAN, Vlastimil. Review: Kd-tree Traversal Algorithms for Ray Tracing. In: Computer Graphics Forum. Blackwell Publishing Ltd, 2011. p. 199-213.</br>
+POPOV, Stefan, et al. Stackless KD-Tree Traversal for High Performance GPU Ray Tracing. In: Computer Graphics Forum. Blackwell Publishing Ltd, 2007. p. 415-424.</br>
+FOLEY, Tim; SUGERMAN, Jeremy. KD-tree acceleration structures for a GPU raytracer. In: Proceedings of the ACM SIGGRAPH/ EUROGRAPHICS conference on Graphics hardware. ACM, 2005. p. 15-22.</br>
+</br>
+[1] GPU (Obecné výpočty na grafických procesorech - General-Purpose Computing on GPU) - <a href="https://cent.felk.cvut.cz/courses/GPU/">https://cent.felk.cvut.cz/courses/GPU/</a></br>
+[2] Windows TDR (Timeout detection and recovery) kills GPU threads after several seconds (by default 2 seconds) to prevent screen freezing.</br>
+     Register "TdrDelay" have to be modified to increase this time.</br>
+	
+</br><b>Renders:</b></br>	
+<a href="img/R_0.png"><img src="img/R_0.png" class="REDUCE"></a>
+<a href="img/R_1.png"><img src="img/R_1.png" class="REDUCE"></a>
+<a href="img/R_2.png"><img src="img/R_2.png" class="REDUCE"></a>
+<a href="img/R_3.png"><img src="img/R_3.png" class="REDUCE"></a>
+<a href="img/R_4.png"><img src="img/R_4.png" class="REDUCE"></a>
+
+</body>
+</html>
