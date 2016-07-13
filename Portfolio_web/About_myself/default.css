@@ -1,0 +1,15 @@
+
+.REDUCE {
+	width: 300px;
+	height: auto;
+}
+.REDUCE_H{
+	width: auto;
+	height: 300px;
+}
+.B{
+	border: 1px solid black;
+}
+.b1{
+	font-size: 130%;
+}
