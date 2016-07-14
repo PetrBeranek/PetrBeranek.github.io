@@ -17,24 +17,24 @@ Project finished: January 2016</br>
 <p>
 <h3>Reason to create project:</h3>
 
-Project was created for course GPU [1] during my master studies.</br>
-Task was to implement ray tracer in CUDA using KD tree as spatial structure with several different traversing algorithms. Also implement ray tracer using persistent threads.</br>
+The project was created for course GPU [1] during my master studies.</br>
+Task was to implement ray tracer in CUDA using KD tree as the spatial structure with several different traversing algorithms. Also, implement ray tracer using persistent threads.</br>
 </p>
 
 <h3>About project:</h3>
-Project was implemented in C++ and CUDA and uses glut and pthread libraries.</br>
+The project was implemented in C++ and CUDA and uses glut and pthread libraries.</br>
 Ray tracer uses KD tree to represent scene and tree is built on CPU. </br>
-There are 2 traversing algorithms implemented. First one always traverse from the root. Second one uses "ropes", references from each node of KD tree to its neighbours.</br>
+There are 2 traversing algorithms implemented. First one always traverses from the root. The second one uses "ropes", references from each node of KD tree to its neighbours.</br>
 Primary rays are built on CPU and they are copied to GPU before ray tracing starts.</br>
-Rays are stored to buffer (stack) and new rays are stored to the end of buffer.</br>
+Rays are stored to buffer (stack) and new rays are stored to the end of the buffer.</br>
 Ray tracer uses primary, shadow, reflected and refracted rays.</br>
 Scenes consisting of spheres and triangles can be rendered.</br>
 </br>
-Application also contains CPU ray tracer for comparison. </br>
+The application also contains CPU ray tracer for comparison. </br>
 </br>
-Because of using persistent threads, same threads have to run for whole length of tracing. When running on Windows, registers have to be modified to render bigger scenes[2].</br>
+Because of using persistent threads, same threads have to run for the whole length of tracing. When running on Windows, registers have to be modified to render bigger scenes[2].</br>
 </br>
-<b>Report(in Czech language): </b><a href="report.pdf">link</a></br>
+<b>Report(in the Czech language): </b><a href="report.pdf">link</a></br>
 
 
 

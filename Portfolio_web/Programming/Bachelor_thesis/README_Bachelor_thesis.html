@@ -9,33 +9,33 @@
 
 <p>
 Finished in May 2015</br>
-My bachelor thesis was written in Czech language.
+My bachelor thesis was written in the Czech language.
 </p>
 
 <p>
 <b>Abstract:</b></br>
-The goal of this thesis is to analyze 3D reconstruction application ArchiRec3D and to design and implement several tools, which give user new possibilities of plane editing. 
-One of the tools allows user to create/modify borders, which are used to trim the planes. Other tool allows user to apply texture to these trimmed planes. 
-The next important tool allows user to create 3D objects form trimmed plane. Thesis contains analysis of the most important parts of the application. 
+The goal of this thesis is to analyse 3D reconstruction application ArchiRec3D and to design and implement several tools, which give user new possibilities of plane editing. 
+One of the tools allows the user to create/modify borders, which are used to trim the planes. Another tool allows the user to apply a texture to these trimmed planes. 
+The next important tool allows the user to create 3D objects from trimmed plane. The thesis contains the analysis of the most important parts of the application. 
 There are also chapters containing problem analysis, design, implementation and testing of these tools. 
-The result is the modified application which allows user to create more detailed textured objects, which was not possible before.</br>
+The result is the modified application which allows the user to create more detailed textured objects, which was not possible before.</br>
 </br>
 <b>About ArchiRec3D</b></br>
 ArchiRec3D(AR) is an experimental program for 3D reconstruction created by David Sedláček implemented in Java using Java3D API. AR uses calibrated scene created by programs such as Bundler [1].
-Calibrated scene is created from photographies of object and consists of point cloud, cameras, photographies and informations about connections between photographies and points of point cloud (especially position of point in photography).
-AR enables visualisation of the scene and gives user several tools to work with scene. User is able to select parts of photographies (walls, doors, roof) by drawing and plane is created in scene. The position and direction of plane is determined by points in selected part of photography.
-RANSAC algorithm is used to create best approximation. AR is designed in such way, that user have to do minimum work. User draws simple scribbles, program does the most of the work. User is able to refine the plane by adding scribbles to different photographies.
-AR allows user to create any amount of planes and user can define which plane should clip other planes. Unfortunately user was unable to define shape of planes. Basic plane was always rectangular with size defined by properties of points used to create it.
+Calibrated scene is created from photographies of object and consists of the point cloud, cameras, photographies and information about connections between photographies and points of point cloud (especially position of the point in photography).
+AR enables visualisation of the scene and gives the user several tools to work with the scene. The user is able to select parts of photographies (walls, doors, roof) by drawing and the plane is created in the scene. The position and direction of the plane are determined by points in selected part of photography.
+RANSAC algorithm is used to create the best approximation. AR is designed in such way, that user has to do minimum work. The user draws simple scribbles and the program does the most of the work. The user is able to refine the plane by adding scribbles to different photographies.
+AR allows the  to create any amount of planes and user can define which plane should clip other planes. Unfortunately, user was unable to define the shape of planes. The basic plane was always rectangular with size defined by properties of points used to create it.
 </p>
 <p>
 <b>Note:</b></br>
-The most important part of my work was to orientate in ArchiRec3D. Program had no documentation and only few parts of code were commented (sometimes even name of methods didn't say much about what it does).</br>
+The most important part of my work was to orientate in ArchiRec3D. The program had no documentation and only a few parts of the code were commented (sometimes even name of methods didn't say much about what it does).</br>
 </br>
 <b>My task:</b></br>
-Create tool that allows user to create border of any plane.</br>
-Create tool that will enable user to refine border of any plane in any photography in the scene.</br>
-Create tool to apply texture to the plane. (Texture is created from photography chosen by user.)</br>
-Create tool for extruding plane to create 3D object.</br>
+Create the tool that allows the user to create the border of any plane.</br>
+Create the tool that will enable the user to refine border of any plane in any photography in the scene.</br>
+Create the tool to apply the texture to the plane. (The texture is created from photography chosen by user.)</br>
+Create the tool for extruding plane to create the 3D object.</br>
 Create import module for scenes created by VisualSFM [2].</br> 
 </p>
 
